@@ -385,15 +385,15 @@ header {
 
 header .colorlib-navbar-brand {
   float: left;
-  overflow: hidden; 
+  overflow: hidden;
 }
-header .colorlib-navbar-brand img{
+header .colorlib-navbar-brand img {
   height: 107.98px;
   width: 151.85px;
   /* border-radius: 10px; */
   transition: 0.3s;
 }
-header .colorlib-navbar-brand img:hover{
+header .colorlib-navbar-brand img:hover {
   transform: scale(1.5);
 }
 
@@ -426,6 +426,11 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 }
 /* colorlib-navbar-brand */
 
+#colorlib-porto-det {
+  padding: 5em 0;
+  clear: both;
+  position: relative;
+}
 
 #colorlib-services,
 #colorlib-contact,
@@ -445,6 +450,7 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
   #colorlib-services,
   #colorlib-contact,
   #colorlib-work,
+  #colorlib-porto-det,
   #colorlib-study,
   #colorlib-portfolio,
   #colorlib-blog,
@@ -898,13 +904,15 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
   margin-left: -1em;
 }
 
-#colorlib-work .work-entry{
+#colorlib-work,
+#colorlib-porto-det .work-entry {
   margin-bottom: 1em;
 }
-#colorlib-work .list-detail{
+#colorlib-work,
+#colorlib-porto-det .list-detail {
   margin-left: 3em;
 }
-#colorlib-study .desc i{
+#colorlib-study .desc i {
   margin-left: 1em;
 }
 
@@ -1160,6 +1168,8 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 .article .desc h2 a {
   text-decoration: none;
   color: #000;
+  line-height: 1.2;
+  font-size: 20px;
 }
 .article:hover .meta {
   background: #fff;
